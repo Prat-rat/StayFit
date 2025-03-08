@@ -1,3 +1,6 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 /* General Reset */
 * {
     margin: 0;
@@ -7,9 +10,11 @@
 
 /* Body Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: #f9f9f996;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 10px 10px;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -19,19 +24,23 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #0078D7;
+    background: linear-gradient(135deg, #0078D7, #0056a3);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
     width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #0056a3;
 }
 
 header h1 {
     font-size: 2.5em;
+    margin: 0;
 }
 
 header p {
     margin-top: 10px;
+    font-size: 1.2em;
 }
 
 /* Main Content */
@@ -105,7 +114,10 @@ li {
 
 /* Footer */
 footer {
+    background-color: #0078D7;
+    color: white;
     text-align: center;
+    padding: 20px;
     margin-top: 20px;
     font-size: 0.9em;
 }
