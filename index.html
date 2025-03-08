@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Disease Database</h1>
+        <p>Enter your disease below and get information and solutions.</p>
+    </header>
+    <main>
+        <section class="form-container">
+            <h2>Find Info</h2>
+            <form id="symptom-form">
+                <label for="symptoms">Select Disease:</label>
+                <select id="symptoms" name="symptoms" required>
+                    <option value="" disabled selected>Select a symptom</option>
+                    <!-- Options will be dynamically added here -->
+                </select>
+                <button type="button" id="apply-button">Apply</button>
+            </form>
+        </section>
+        <section class="results-container" id="results">
+            <h2>Possible Conditions</h2>
+            <ul id="condition-list">
+                <!-- Results will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Symptom Checker. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
