@@ -1,0 +1,37 @@
+{
+    "cancer": {
+        "cause": "Cancer is caused by changes (mutations) to the DNA within cells.",
+        "info": "Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body.",
+        "cases": "There are over 100 types of cancer, including breast cancer, skin cancer, lung cancer, colon cancer, prostate cancer, and lymphoma.",
+        "treatment": "Treatment options include surgery, radiation therapy, chemotherapy, immunotherapy, and targeted therapy.",
+        "hospitals": "Famous medical programs include Mayo Clinic, MD Anderson Cancer Center, and Johns Hopkins Hospital."
+    },
+    "diabetes": {
+        "cause": "Diabetes is caused by either the pancreas not producing enough insulin or the body's cells not responding properly to insulin.",
+        "info": "Diabetes is a chronic disease that affects how your body turns food into energy.",
+        "cases": "There are three main types of diabetes: type 1, type 2, and gestational diabetes.",
+        "treatment": "Treatment options include insulin therapy, oral medications, and lifestyle changes such as diet and exercise.",
+        "hospitals": "Famous medical programs include Joslin Diabetes Center, Cleveland Clinic, and Mayo Clinic."
+    },
+    "heart disease": {
+        "cause": "Heart disease is caused by a buildup of plaque in the arteries, which can lead to a heart attack or stroke.",
+        "info": "Heart disease refers to various types of heart conditions, including coronary artery disease, arrhythmias, and heart defects.",
+        "cases": "Heart disease is the leading cause of death worldwide.",
+        "treatment": "Treatment options include lifestyle changes, medications, and surgical procedures such as angioplasty or bypass surgery.",
+        "hospitals": "Famous medical programs include Cleveland Clinic, Mayo Clinic, and Johns Hopkins Hospital."
+    },
+    "stroke": {
+        "cause": "A stroke is caused by a blockage of blood flow to the brain or bleeding in the brain.",
+        "info": "A stroke occurs when the blood supply to part of the brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients.",
+        "cases": "There are two main types of stroke: ischemic stroke and hemorrhagic stroke.",
+        "treatment": "Treatment options include clot-busting medications, surgery, and rehabilitation therapy.",
+        "hospitals": "Famous medical programs include Cleveland Clinic, Mayo Clinic, and Johns Hopkins Hospital."
+    },
+    "alzheimer's disease": {
+        "cause": "Alzheimer's disease is caused by the buildup of amyloid plaques and tau tangles in the brain.",
+        "info": "Alzheimer's disease is a progressive neurological disorder that causes memory loss and cognitive decline.",
+        "cases": "Alzheimer's disease is the most common cause of dementia among older adults.",
+        "treatment": "Treatment options include medications to manage symptoms and support services for patients and caregivers.",
+        "hospitals": "Famous medical programs include Mayo Clinic, Cleveland Clinic, and Johns Hopkins Hospital."
+    }
+}
