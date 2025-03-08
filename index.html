@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disease Database</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .large-dropdown {
+            font-size: 1.2em;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Disease Database</h1>
+        <h1 style="font-size: 5em;">Disease Database</h1>
         <p>Enter your disease below and get information and solutions.</p>
     </header>
     <main>
         <section class="form-container">
-            <h2>Find Info</h2>
+            <h2 style="font-size: 2em;">Find Info</h2>
             <form id="symptom-form">
                 <label for="symptoms">Select Disease:</label>
-                <select id="symptoms" name="symptoms" required>
+                <select id="symptoms" name="symptoms" class="large-dropdown" required>
                     <option value="" disabled selected>Select a symptom</option>
                     <!-- Options will be dynamically added here -->
                 </select>
+                <br> </br>
                 <button type="button" id="apply-button">Apply</button>
             </form>
         </section>
