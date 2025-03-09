@@ -42,7 +42,7 @@ document.getElementById('apply-button').addEventListener('click', function() {
 
 
 
-
+/*
 
 document.addEventListener('DOMContentLoaded', function() {
     fetch('data.json')
@@ -81,3 +81,4 @@ document.getElementById('apply-button').addEventListener('click', function() {
             });
     }
 });
+*/
